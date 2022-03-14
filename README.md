@@ -1,5 +1,7 @@
 # FFI demo for C call Rust
 
+> MacOs only for now.
+
 ### Build the lib
 
 ```shell

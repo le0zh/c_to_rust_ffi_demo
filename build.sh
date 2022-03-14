@@ -3,7 +3,7 @@
 # export CPU_ARM64=aarch64-apple-darwin
 export CPU_X86=x86_64-apple-darwin
 
-rustup target add $CPU_ARM64 $CPU_X86
+rustup target add $CPU_X86
 
 cbindgen -o lib/libc_to_rust_ffi_demo.h --lang c
 
